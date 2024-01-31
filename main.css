@@ -1,0 +1,133 @@
+.section {
+  width: 1440px;
+  margin: 0px auto;
+}
+
+nav .navbar {
+  display: flex;
+  height: 100px;
+  width: 745px;
+  align-items: center;
+}
+nav .navbar__logo {
+  height: 41px;
+}
+nav .navbar__icons {
+  display: flex;
+  gap: 45px;
+  margin-left: 158px;
+}
+nav .navbar ul {
+  list-style: none;
+  display: flex;
+  margin-left: 266px;
+  gap: 75px;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+nav .navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  background: url(/images/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
+  background-size: cover;
+  position: relative;
+  height: 1007px;
+}
+header .banner__card {
+  position: absolute;
+  background-color: #FFF3E3;
+  padding: 62px 56px 37px 39px;
+  width: 618px;
+  height: 343px;
+  border-radius: 10px;
+  top: 253px;
+  left: 839px;
+}
+header .banner__card .p-main {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin: 0;
+}
+header .banner__card h1 {
+  color: #B88E2F;
+  font-family: "Poppins", sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  margin: 0;
+  margin-bottom: 17px;
+}
+header .banner__card p {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+}
+header .banner__card button {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 25px 72px;
+  background-color: #B88E2F;
+  border: none;
+  margin-top: 46px;
+}
+
+main {
+  text-align: center;
+}
+main .browse-section h2 {
+  color: #333;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+main .browse-section p {
+  color: #666;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 48px;
+}
+main .browse-section .browse__cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+main .browse-section .browse__cards img {
+  border-radius: 10px;
+}
+main .browse-section .browse__cards p {
+  color: #333;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}/*# sourceMappingURL=main.css.map */

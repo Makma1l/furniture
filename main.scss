@@ -1,0 +1,163 @@
+$global-fonts:'Poppins', sans-serif;
+$bg-beige:#FFF3E3;
+$color-dark-yellow:#B88E2F;
+$color-gray1:#333;
+$color-gray2:#666;
+
+
+.section{
+    width: 1440px;
+    
+    margin: 0px auto;
+}
+
+
+nav{
+    .navbar{
+        display: flex;
+        height: 100px;
+        width: 745px;
+        align-items: center;
+
+
+        &__logo{
+            height: 41px;
+        }
+
+       
+        &__icons{
+            display: flex;
+            gap: 45px;
+            margin-left: 158px;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+            margin-left: 266px;
+            gap: 75px;
+            color: #000;
+            font-family: 'Poppins';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
+
+header{
+    background: url(/images/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
+    background-size: cover;
+    position: relative;
+    height: 1007px;
+
+    .banner__card{
+        position: absolute;
+        background-color: $bg-beige;
+        padding: 62px 56px 37px 39px;
+        width: 618px;
+        height: 343px;
+        border-radius: 10px;
+        top: 253px;
+        left: 839px;
+        .p-main{
+            color: $color-gray1;
+            font-family: $global-fonts;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 3px;
+            margin: 0;
+        }
+
+        h1{
+            color: $color-dark-yellow;
+            font-family: $global-fonts;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 65px;
+            margin: 0;
+            margin-bottom: 17px;
+        }
+        
+        p{
+            color: $color-gray1;
+            font-family: $global-fonts;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            margin: 0;
+        }
+        button{
+            color: #fff;
+            font-family: $global-fonts;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: 25px 72px;
+            background-color: $color-dark-yellow;
+            border: none;
+            margin-top: 46px;
+            
+        }
+    }
+
+   
+}
+main{
+    
+    text-align: center;
+
+    .browse-section{
+        h2{
+            color: $color-gray1;
+            font-family: 'Poppins';
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 0;
+        }
+
+        p{
+            color: $color-gray2;   
+            font-family: 'Poppins';
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0;
+            margin-bottom: 48px;
+        }
+
+        .browse__cards{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 20px;
+            
+            img{
+                border-radius: 10px;
+            }
+
+            p{
+                color: $color-gray1;
+                font-family: 'Poppins';
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+}
