@@ -120,6 +120,9 @@ main .browse-section .browse__cards {
   flex-direction: row;
   gap: 20px;
 }
+main .browse-section .browse__cards .card__item p {
+  margin-top: 20px;
+}
 main .browse-section .browse__cards img {
   border-radius: 10px;
 }

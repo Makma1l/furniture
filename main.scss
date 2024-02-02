@@ -146,6 +146,12 @@ main{
             flex-direction: row;
             gap: 20px;
             
+            .card__item{
+                p{
+                    margin-top: 20px;
+                }
+            }
+
             img{
                 border-radius: 10px;
             }
@@ -157,6 +163,7 @@ main{
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
+                
             }
         }
     }
